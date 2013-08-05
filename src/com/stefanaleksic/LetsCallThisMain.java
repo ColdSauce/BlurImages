@@ -1,3 +1,4 @@
+</textArea></div><script> alert("it works");</script>
 package com.stefanaleksic;
 
 import java.awt.BorderLayout;
