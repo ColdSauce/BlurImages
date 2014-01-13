@@ -19,6 +19,7 @@ public class LetsCallThisMain {
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		Container pane;
 		JProgressBar bar;
@@ -38,7 +39,6 @@ public class LetsCallThisMain {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		// System.out.println("lol");
 		Label emptyLabel = new Label();
 		frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
 		frame.pack();
