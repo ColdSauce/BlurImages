@@ -9,12 +9,10 @@ public class Compressor {
 	private int height = 3;
 	private int width = 2;
 	private BufferedImage img = null;
-	Pixel[][] pixels = new Pixel[height][width];
-	Pixel[][] compressedPixels = new Pixel[height][width];
+	private Pixel[][] pixels = new Pixel[height][width];
+	private Pixel[][] compressedPixels = new Pixel[height][width];
 
 	public Compressor(int width, int height, BufferedImage img) {
-		System.out.println(height);
-		System.out.println(width);
 		this.height = height;
 		this.width = width;
 		this.img = img;
